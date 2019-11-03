@@ -1,6 +1,9 @@
+#include <iostream>
+#include <assert.h>
+
 class Production{
 public:
 
-	bool someMethod();
-
+	void someMethod();
+	void someMethodTwo();
 };

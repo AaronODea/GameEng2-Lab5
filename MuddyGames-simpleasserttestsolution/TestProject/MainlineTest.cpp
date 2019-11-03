@@ -10,10 +10,8 @@ int main()
 {
 	Production p;
 
-
-	cout << p.someMethod() << endl;
-	assert(p.someMethod() == true);
-	//assert(p.someMethod(a) == 1);
+	p.someMethod();
+	p.someMethodTwo();
 
 
 	cin.get();
